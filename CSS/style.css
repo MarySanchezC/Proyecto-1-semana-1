@@ -1,0 +1,325 @@
+body {
+  background-image: url("../Imagenes/Wallpaper\ 2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 60px 200px 0px 200px;
+  padding: 0px 200px 0px 200px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.logoimagen {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  border: aliceblue groove;
+
+}
+nav {
+  background-color: black;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+.barradenavegacion {
+  list-style: none;
+  padding: 0;
+  background: #d4c9c963;
+  /* max-width: 90%; */
+  margin: 0;
+  /* text-align: center; */
+}
+.barradenavegacion li a {
+  text-decoration: none;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px #fff;
+  padding: 30px;
+  display: block;
+}
+.navegacion1 :hover {
+  background: #0909e78e;
+  color: black;
+  border-radius: 100%;
+}
+.navegacion2 :hover {
+  background: #6495ed;
+  color: black;
+  border-radius: 100%;
+}
+.navegacion3 :hover {
+  background: #0909e78e;
+  color: black;
+  border-radius: 100%;
+}
+.navegacion4 :hover {
+  background: #6495ed;
+  color: black;
+  border-radius: 100%;
+}
+/* .barradenavegacion li a:hover {
+} */
+.barradenavegacion li {
+  display: inline-flex;
+}
+
+/* Parte1 parallax */
+.parallax {
+  background-image: url(../Imagenes/Chris\ Cornell\ 2.jpeg);
+  min-height: 900px;
+  min-width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.tituloparallax h2 {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 11, 1);
+  text-shadow: 0px 0px 10px #fff;
+}
+.parrafoparallax {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 11, 1);
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid antiquewhite;
+  text-shadow: 0px 0px 10px #fff;
+  border-radius: 100%;
+}
+.parrafoparallax:hover {
+  background-color: #0909e78e;
+  opacity: 3;
+}
+.parrafoparallax a {
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 10px 10px;
+  text-decoration: double;
+  margin: 0;
+}
+
+/* Secion 3 info */
+.informacion {
+  display: inline-flex;
+}
+.informacion p {
+  color: aliceblue;
+  max-width: 40%;
+  margin: 0;
+  align-self: center;
+  padding-left: 50px;
+  line-height: 23px;
+  left: 500px;
+}
+.titulochriss {
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  display: inline-flex;
+  text-align: center;
+  text-shadow: 0px 0px 10px #fff;
+}
+.titulochriss2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0px 0px 10px #fff;
+}
+.imagen2 {
+  max-width: 85%;
+  border: 3px groove rgb(74, 71, 255);
+  height: 400px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-top: 30%;
+}
+.imagen3 {
+  max-width: 90%;
+  border: 3px groove rgb(74, 71, 255);
+  width: 500px;
+  height: 400px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.gallery {
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}     
+.gallerytitulo {
+  font-size: 55px;
+  text-shadow: 0px 0px 10px #fff;
+}
+
+
+/* .galleryimg2 {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.galleryimg {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.gallery1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+}
+.texto3 p {
+  margin: 0 auto;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 70px;
+  font-family: 'Grechen Fuemen', cursive;
+}
+.gallery2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+}
+.texto4 p {
+  margin: 0 auto;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 70px;
+  font-family: 'Grechen Fuemen', cursive;
+}
+.gallery1 .galleryimg:hover {
+  transform: translateY(-50px);
+  transition: all 0.25s;
+}
+.gallery2 .galleryimg2:hover {
+  transform: translateY(-50px);
+  transition: all 0.25s;
+} */
+
+
+.container {
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  }
+  .container .card{
+  width: 400px;
+  height: 500px;
+  border-radius:8px ;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+ 
+  overflow: hidden;
+  
+  margin: 0 10px;
+  text-align: center;
+  border: darkgray;
+  background-color: #817a7a8e;
+  
+
+  transition: all 0.25s;
+  }
+  
+  .container .card:hover{
+  
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+  
+   }
+  
+/* Gallery */
+  
+  .container .card img{
+
+    width: 350px;
+    height: 350px;
+  
+  }
+  
+  .container .card h4{
+  
+    font-weight: 700;
+    color: rgb(83, 17, 17);
+    font-family: 'Grechen Fuemen', cursive;
+  }
+  
+  
+  .container .card p{
+  padding:0 1rem; 
+  font-size: 16px;
+  font-weight: 600;
+  color:black;
+  font-family: 'Grechen Fuemen', cursive;
+  
+  }
+  
+  .container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: cornflowerblue;
+  
+  }
+
+
+
+.logo2 {
+  width: 100px;
+  margin: auto;
+  justify-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.videos {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.videostitulo {
+  color: aliceblue;
+  font-size: 55px;
+  text-shadow: 0px 0px 10px #fff;
+  text-align: center;
+}
+.musica {
+  border: 3px groove rgb(74, 71, 255);
+}
+
+.footer {
+  border-top: 4px groove #fff;
+    color: #fff;
+  }
